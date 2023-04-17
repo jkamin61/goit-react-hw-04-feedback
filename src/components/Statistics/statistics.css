@@ -1,1 +1,39 @@
+.statistics__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
+.statistics__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  margin: 20px;
+  background-color: #f5f5f5;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #000;
+}
+
+.statistics__item:first-child {
+  background-color: green;
+  color: #fff;
+}
+.statistics__item:nth-child(2) {
+  background-color: orange;
+  color: #fff;
+}
+.statistics__item:nth-child(3) {
+  background-color: red;
+  color: #fff;
+}

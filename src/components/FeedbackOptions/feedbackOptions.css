@@ -5,13 +5,27 @@
   margin: 0 auto;
 }
 
-.feedback__container > button {
+.feedback__button {
   display: inline-block;
-  margin-right: 10px;
   padding: 10px;
   border: 1px solid #000;
-  border-radius: 5px;
-  background-color: #fff;
   cursor: pointer;
   transition: background-color 250ms linear;
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+  border-radius: 6px;
+}
+.feedback__button:first-child {
+  background-color: green;
+}
+
+.feedback__button:not(:first-child):not(:last-child) {
+  background-color: orange;
+}
+
+.feedback__button:last-child {
+  background-color: red;
 }

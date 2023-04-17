@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 
 const FeedbackOptions = ({ options }) => (
   <div className={'feedback__container'}>
-    <button onClick={options.good}>good</button>
-    <button onClick={options.neutral}>neutral</button>
-    <button onClick={options.bad}>bad</button>
+    <button className={"feedback__button"} onClick={options.good}>good</button>
+    <button className={"feedback__button"} onClick={options.neutral}>neutral</button>
+    <button className={"feedback__button"} onClick={options.bad}>bad</button>
   </div>
 );
 
