@@ -1,0 +1,17 @@
+.feedback__container {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.feedback__container > button {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 250ms linear;
+}
