@@ -1,8 +1,8 @@
 const Notification= () => {
 
   return (
-    <p>
-      <b>There is no feedback given</b>
+    <p className={"notification"}>
+      <b className={"notification__text"}>There is no feedback given</b>
     </p>
   );
 };
